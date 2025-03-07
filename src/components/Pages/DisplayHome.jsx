@@ -3,9 +3,10 @@ import Navbar from './Navbar';
 
 const DisplayHome = () => {
     return (
-        <div>
-            <Navbar></Navbar>
-        </div>
+            <div className='my-5 font-bold   w-full'>
+                
+            </div>
+        
     );
 };
 

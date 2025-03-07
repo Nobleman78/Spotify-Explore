@@ -16,6 +16,7 @@ const Sidebar = () => {
                 </div>
             </div>
             {/* Home and Search Div End */}
+            
             <div className='h-[85%] bg-[#121212] rounded'>
                 <div className='flex p-4 items-center justify-between'>
                     <div className='flex items-center gap-3'>
