@@ -3,7 +3,7 @@ import { assets, songsData } from '../../assets/assets';
 
 const Player = () => {
     return (
-        <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
+        <div className='h-[10%] bg-black flex justify-between items-center  text-white px-4'>
             {/* Song Image and Song title Part Start */}
             <div className='hidden lg:flex items-center gap-4'>
                 <img className='w-12' src={songsData[0].image} alt="" />
@@ -16,7 +16,7 @@ const Player = () => {
             {/* Song Image and Song Title Part End */}
 
             {/* Play Button , next btn, prev btn part start */}
-            <div className='flex flex-col items-center gap-1 m-auto'>
+            <div className='flex flex-col items-center gap-1 m-auto  '>
                 <div className='flex gap-4'>
                     <img className='w-4 cursor-pointer' src={assets.shuffle_icon} alt="shuffle Icon" />
                     <img className='w-4 cursor-pointer' src={assets.prev_icon} alt="Prev Icon" />

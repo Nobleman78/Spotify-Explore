@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar';
-import { albumsData,songsData } from '../../assets/assets';
+import { albumsData, songsData } from '../../assets/assets';
 import Album from '../AlbumData/Album';
 
 const DisplayHome = () => {
+    
     return (
         <>
+            <Navbar></Navbar>
             <div className='mb-4'>
                 <h1 className='my-5 font-bold text-2xl'>Featured Charts</h1>
                 <div className='flex overflow-auto'>
