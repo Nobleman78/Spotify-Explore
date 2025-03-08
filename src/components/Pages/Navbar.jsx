@@ -27,8 +27,8 @@ const Navbar = () => {
         {/* <a className='bg-black  text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,5)] py-1 px-3 cursor-pointer rounded-2xl text-[15px]  '>Install App</a>
         </div> */}
         <div className='flex items-center gap-3 '>
-          <a className='cursor-pointer  text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,1)]'><Signup></Signup></a>
-          <a className='bg-white cursor-pointer text-black px-4 py-2 rounded-3xl'><Login></Login></a>
+          <li className='cursor-pointer list-none  text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,1)]'><Signup></Signup></li>
+          <li className='bg-white cursor-pointer list-none text-black px-4 py-2 rounded-3xl'><Login></Login></li>
 
         </div>
 
